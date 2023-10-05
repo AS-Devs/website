@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -20,7 +19,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            API Docs{' '}
+            API Docs &nbsp;
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -43,7 +42,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-           We've started writing technical blogs which will help other developers, as well as help power user. 
+           We&apos;ve started writing technical blogs which will help other developers, as well as help power user. 
           </p>
         </a>
 
@@ -71,7 +70,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            VaultWarden{' '}
+            VaultWarden &nbsp;
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
